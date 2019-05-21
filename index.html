@@ -21,7 +21,7 @@
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
 	<!-- LIGHT -->
 	<link rel="stylesheet" type="text/css" href="assets/css/dummy.css" id="select-style">
-	<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link href="assets/css/light.css" rel="stylesheet" media="screen">
 	
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600' rel='stylesheet' type='text/css'>
@@ -48,26 +48,20 @@
 	<div class="row transparent-menu-top">
 		<div class="container clear-padding">
 			<div class="navbar-contact">
-				<div class="col-md-7 col-sm-6 clear-padding">
+				<div class="col-md-7 col-sm-6 clear-padding sm-invisible">
 					<a href="#" class="transition-effect"><i class="fa fa-phone"></i> (+91) 1234567890</a>
-					<a href="#" class="transition-effect"><i class="fa fa-envelope-o"></i> support@email.com</a>
+					<a href="#" class="transition-effect"><i class="far fa-envelope"></i> support@email.com</a>
 				</div>
 				<div class="col-md-5 col-sm-6 clear-padding search-box">
 					<div class="col-md-6 col-xs-5 clear-padding">
-						<form>
-							<div class="input-group">
-								<input type="text" name="search" class="form-control" required placeholder="Search">
-								<span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>
-							</div>
-						</form>
 					</div>
-					<div class="col-md-6 col-xs-7 clear-padding user-logged">
+					<div class="col-md-6 col-xs-12 clear-padding user-logged">
 						<a href="#" class="transition-effect">
 							<img src="assets/images/user.jpg" alt="cruise">
 							Hi, Lenore
 						</a>
 						<a href="#" class="transition-effect">
-							<i class="fa fa-sign-out"></i>Sign Out
+							<i class="fas fa-sign-out-alt"></i>Sign Out
 						</a>
 					</div>
 				</div>
@@ -116,42 +110,43 @@
 <!-- END: NAV SECTION -->
 
 <!-- BEGIN: SEARCH SECTION -->
-<section>
+<section style="background: rgba(10, 49, 82, 0.3);">
 	<!-- BEGIN: SEARCH SECTION -->
 	<div class="row">
 		<div class="container">
 			<div class="col-md-8 col-sm-6 text-center">
 				<div>
 					<div class="hotel-tagline text-center">
-						<h3>Welcome To</h3>
-						<h1>Cruise Car Agency</h1>
+						<h1 style="font-size:70px;"><span style="color:#ffff00;font-size:80px;">IZI</span><span style="color:#00ff00;">CAR</span><span style="color:#ffff00;">.</span><span style="color:#00ff00;">VN</span>
+						</h1>
+						<h2 style="color:#ffffff;">Đi chung ôtô, Share giá tiền, Kết thêm bạn.</h2>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<div class="room-check">
-					<h4 class="text-center">BOOK A CAR</h4>
+					<h4 class="text-center">TÌM XE KÉ</h4>
 					<div class="room-check-body">
 						<form >
-							<label>Pick Up Location</label>
+							<label>Chọn nơi đi</label>
 							<div class="input-group">
 								<input type="text" name="destination" class="form-control" placeholder="E.g Paris" required>
-								<span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+								<span class="input-group-addon"><i class="fas fa-map-marker-alt"></i></span>
 							</div>
-							<label>Pick Down Date</label>
+							<label>Chọn nơi đến</label>
 							<div class="input-group">
 								<input type="text" name="destination" class="form-control" placeholder="E.g Paris" required>
-								<span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+								<span class="input-group-addon"><i class="fas fa-map-marker-alt"></i></span>
 							</div>
 							<div class="col-xs-8 padding-right">
-								<label>Travel Date</label>
+								<label>Ngày đi</label>
 								<div class="input-group">
 									<input type="text" id="check_out" name="check-out" class="form-control" placeholder="DD/MM/YYYY" required>
-									<span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
+									<span class="input-group-addon"><i class="far fa-calendar-alt"></i></span>
 								</div>
 							</div>
 							<div class="col-xs-4 padding-left">
-								<label>Seats</label>
+								<label>Ghế</label>
 								<select class="selectpicker" name="car_type">
 									<option>1</option>
 									<option>2</option>
@@ -288,79 +283,34 @@
 	</div>
 </section>
 
-
-<!-- START: OUR SERVICE -->
-<!--
-<section>
-	<div class="row work-row p-0">
-		<div class="overlay">
-			<div class="container clear-padding">
-				<div class="service-right col-md-12">
-					<div class="col-md-3 col-sm-6 text-center service">
-						<i class="fa fa-plane"></i>
-						<div class="service-desc">
-							<h5>FLIGHT BOOKING</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 text-center service">
-						<i class="fa fa-bed"></i>
-						<div class="service-desc">
-							<h5>HOTEL BOOKING</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 text-center service">
-						<i class="fa fa-suitcase"></i>
-						<div class="service-desc">
-							<h5>HOLIDAYS BOOKING</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 text-center service">
-						<i class="fa fa-ship"></i>
-						<div class="service-desc">
-							<h5>CRUISE BOOKING</h5>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-						</div>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
--->
-<!-- END: OUR SERVICE -->
-
 <!-- BEGIN: HOW IT WORK -->
 <section id="how-it-work">
 		<div class="row work-row" style="background-color:#ddd;">
 			<div class="container">
 				<div class="section-title text-center">
-					<h2>HOW IT WORKS?</h2>
-					<h4>SEARCH - SELECT - BOOK</h4>
+					<h2>CHỌN XE ĐƠN GIẢN TRONG 3 PHÚT</h2>
+					<h4>TÌM KIẾM - LỰA CHỌN - ĐẶT XE</h4>
 					<div class="space"></div>
 					<p>
-						Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-						Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+						Trên ecar.vn các bạn có thể đặt 1 chuyến xe ké nhanh chóng chỉ trong vòng 3 bước đơn giản<br>
+						Đã có hơn 5000 chuyến xe được đặt trên website ecar.vn Hãy nhanh tay lựa chọn 1 chuyến đi xe ké nào
 					</p>
 				</div>
 				<div class="work-step">
 					<div class="col-md-4 col-sm-4 first-step text-center">
 						<i class="fa fa-search"></i>
-						<h5>SEARCH</h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<h5>TÌM KIẾM</h5>
+						<p>Điền thông tin ngày đi, và lộ trình, hệ thống sẽ đưa cho các bạn những chuyến đi tương ứng.</p>
 					</div>
 					<div class="col-md-4 col-sm-4 second-step text-center">
-						<i class="fa fa-heart-o"></i>
-						<h5>SELECT</h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<i class="fa fa-heart"></i>
+						<h5>LỰA CHỌN</h5>
+						<p>Trong tất cả kết quả hiển thị, lựa chọn ngay một chuyến xe ké hoặc xe quay đầu mà bạn ưng ý.</p>
 					</div>
 					<div class="col-md-4 col-sm-4 third-step text-center">
 						<i class="fa fa-shopping-cart"></i>
-						<h5>BOOK</h5>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<h5>ĐẶT XE</h5>
+						<p>Tiến hành điền thông tin hoặc đăng nhập, và sau đó thanh toán để nhận được ngay mã vé xe.</p>
 					</div>
 				</div>
 			</div>
@@ -373,12 +323,12 @@
 	<div class="row choose-us-row">
 		<div class="container clear-padding">
 			<div class="light-section-title text-center">
-				<h2>WHY CHOOSE US?</h2>
-				<h4>REASONS TO TRUST US</h4>
+				<h2>TẠI SAO LỰA CHỌN ECAR.VN?</h2>
+				<h4>NỀN TẢNG ĐI XE KÉ HÀNG ĐẦU VIỆT NAM</h4>
 				<div class="space"></div>
 				<p>
-					Lorem Ipsum is simply dummy text. Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+					ECAR.VN được ra mắt vào 2019, dùng để kết nối các tài xế có chuyến xe và các hành khách muốn đi xe đường dài.<br>
+					Đi ké, chia sẻ giá tiền sẽ giúp các bạn tiết kiệm được chi phí cho chuyến du lịch, giảm thiểu ô nhiễm môi trường, và gặp được những người bạn mới.
 				</p>
 			</div>
 			<div class="col-md-4 col-sm-4 wow slideInLeft">
@@ -657,8 +607,6 @@
 					slide_captions          :   1,		//Slide caption (Pull from "title" in slides array)
 					slides 					:  	[		//Slideshow Images
 														{image : 'assets/images/bg-slide-1.jpg', title : 'Slide 1'},  
-														{image : 'assets/images/bg-slide-1.jpg', title : 'Slide 2'},
-														{image : 'assets/images/bg-slide-1.jpg', title : 'Slide 3'},
 												]
 												
 				}); 
